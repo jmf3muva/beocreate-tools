@@ -1,4 +1,4 @@
-#Ã!/bin/sh
+#Ãƒ!/bin/sh
 # Install the BeoCreate TCP server
 sudo apt-get install -y git cmake
 git clone https://github.com/bang-olufsen/create
@@ -15,8 +15,8 @@ cd ../SigmaClientTool
 cmake .
 make
 sudo cp SigmaClientTool /usr/local/bin/beocreate-client
-sudo chown root /usr/local/bin/beocreate-tcp
-sudo chmod go+rx /usr/local/bin/beocreate-tcp
+sudo chown root /usr/local/bin/beocreate-client
+sudo chmod go+rx /usr/local/bin/beocreate-client
 
 cd ../..
 rm -rf create
